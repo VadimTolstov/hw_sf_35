@@ -17,7 +17,7 @@ public class IviPageObjectsTest {
 
     private final String BACK_BUTTON = "Назад";
     private final SelenideElement
-            searchInput = $("button[data-test=header_search]"),
+            searchInput = $("[data-test=header_search]"),
             searchMovieInput = $(".nbl-input__editbox"),
             openMovieInput = $("a[href=\"https://www.ivi.ru/watch/90324\"]"),
             checkMovieInput = $(".contentCard__info"),
