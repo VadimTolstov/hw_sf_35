@@ -24,9 +24,3 @@ Feature: Смог тест Иви
     Then enter in the field 'sasmail.ru'
     #появилось сообщение 'Ошибка'
     And a message appeared 'Ошибка'
-    #  And assert that chosen city is 'Краснодар'
- #Негатинвый сценарий: выбираем несушествующий город, получаем соответствуещее уведомление
- # Scenario: chose absent city
- #   Given url of restaurant 'https://dodopizza.ru/'
- #   Then  chose city 'Лапландия'
- #   And assert that user got message 'Пиццерия в этом городе еще не открылась'
