@@ -2,7 +2,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Ivi {
+/**
+ * Варинаты запуска сценариев:
+ * Команда  в консоли
+ * Через UI intellij IDEA в scenario.feature
+ */
+public class IviTests {
     IviPageObjectsTest iviPageObjectsTest = new IviPageObjectsTest();
 
     @Given("url ivi {string}")

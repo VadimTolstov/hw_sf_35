@@ -7,6 +7,12 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
+
+/**
+ * Варинаты запуска сценариев:
+ * Команда  в консоли
+ * Через UI intellij IDEA в scenario.feature
+ */
 public class IviPageObjectsTest {
 
     private final String BACK_BUTTON = "Назад";
